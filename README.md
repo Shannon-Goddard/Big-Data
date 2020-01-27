@@ -102,21 +102,26 @@ In this challenge, you have two main goals. First, you’ll need to perform the 
 
 ## Challenge Summary  
 ### Instructions
-The first step of this challenge is to create DataFrames to match production-ready tables from two large Amazon customer review datasets.
-Use the furnished schemata to create tables in your RDS database.
-Create a Google Colab Notebook and extract any dataset from the list of [review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
-, one into each notebook. 
-Hint: Be sure to handle the header correctly. If you read the file without the header parameter, you might find that the column headers are included in the table rows.
-For the notebook, complete the following: 
-Extract the dataset from the S3 bucket and load into a DataFrame. Note that these are tab-separated files, and the parameter sep="\t" should be used.
-Count the number of records (rows) in the dataset.
-Transform the dataset to fit the tables in the schema file. Be sure the DataFrames match in both data type and column name.
-Load the DataFrames that correspond to tables into an RDS instance. 
-Note: This process can take up to 10 minutes for each. Be sure that everything is correct before uploading.
-Use either PySpark or, for an extra challenge, SQL to analyze the data and determine if the Vine reviews are biased. 
-If you choose to use SQL, use the vine_table from the result of the previous step. Perform your analysis with SQL queries on RDS.
-If you choose to use PySpark create a new notebook and perform your analysis there.
-While there are no hard requirements for the analysis, consider steps you can take to reduce noisy data (e.g., filtering for reviews that meet a certain number of helpful votes, total votes, or both).
+The first step of this challenge is to create DataFrames to match production-ready tables from two large Amazon customer review datasets.  
+
+1.) Use the furnished schemata to create tables in your RDS database.  
+
+2.) Create a Google Colab Notebook and extract any dataset from the list of [review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
+, one into each notebook.  
+
+**Hint:** Be sure to handle the header correctly. If you read the file without the header parameter, you might find that the column headers are included in the table rows.  
+
+3.) For the notebook, complete the following: 
+- Extract the dataset from the S3 bucket and load into a DataFrame. Note that these are tab-separated files, and the parameter sep="\t" should be used.
+- Count the number of records (rows) in the dataset.
+- Transform the dataset to fit the tables in the schema file. Be sure the DataFrames match in both data type and column name.
+- Load the DataFrames that correspond to tables into an RDS instance.  
+
+**Note**: This process can take up to 10 minutes for each. Be sure that everything is correct before uploading.
+4.) Use either PySpark or, for an extra challenge, SQL to analyze the data and determine if the Vine reviews are biased. 
+- If you choose to use SQL, use the vine_table from the result of the previous step. Perform your analysis with SQL queries on RDS.
+- If you choose to use PySpark create a new notebook and perform your analysis there.
+- While there are no hard requirements for the analysis, consider steps you can take to reduce noisy data (e.g., filtering for reviews that meet a certain number of helpful votes, total votes, or both).
 
 <br/>
 <img align="left" width="260" src="/pics/.png"><br/>
