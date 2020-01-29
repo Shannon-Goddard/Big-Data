@@ -9,7 +9,7 @@
 [Challenge Overview](#challenge-overview)  
 [Challenge Objectives](#challenge-objectives)  
 [Challenge Summary](#challenge-summary)  
-[Links](#links)
+[Colab Link](#colab_link)
 
 ## Project Overview  
 This week we covered what constitutes big data and how it’s handled. We started by reviewing Hadoop and its ecosystem.  
@@ -116,7 +116,7 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
 - If you choose to use **PySpark**, create a new notebook and perform your analysis there.
 - Consider steps to take to reduce noisy data.
 
-## Link
+## Colab Link
 **[Google Colab notebook](https://drive.google.com/drive/folders/1A1gtiwU0Suo4EcvG3gPgbe0YRxeHyIBb) includes:** 
 - **digital_music.ipynb** ETL process on the digital music review dataset  
 - **music.ipynb** ETL process on the music review dataset
