@@ -14,7 +14,7 @@
 ## Project Overview  
 This week we covered what constitutes big data and how it’s handled. We started by reviewing Hadoop and its ecosystem.  
 
-Within this big data and Hadoop context, we covered: 
+**Within this big data and Hadoop context, we covered:** 
 - MapReduce and how it has improved the process for handling big data. 
 - PySpark, which has become the leading technology for handling big data.  
 - Some of the technologies used with big data  
@@ -42,13 +42,13 @@ Data is considered big data when it exceeds the capacity of operational database
 - **Variety** relates to different forms of data (e.g., user account information, product details, etc.). Consider the breadth of Netflix user information, videos, photos for thumbnails, and so forth.
 - **Veracity** concerns the uncertainty of data (e.g., reviews might not be real and could come from bots). As an example, Netflix would want to verify whether users are actively watching the shows, falling asleep, or just playing them in the background.  
 
-**Limitations**
+**Limitations**  
 Working with datasets of this size creates unique challenges. How will we store all of this data? How can we access it quickly? How do we back up this type of data?  
 
 ### Define Hadoop and name the main elements of its ecosystem.  
 Apache Hadoop (Hadoop) is one of the most popular open source frameworks, with numerous technologies for big data. Google developed Hadoop to process large amounts of data by splitting data across a distributed file system.  
 
-The three main components of Hadoop: 
+**The three main components of Hadoop:** 
 - **Hadoop Distributed File System (HDFS)** is a file system used to store data across server clusters (groups of computers). It is scalable (which means it handles influxes of data), fault-tolerant (handles hardware failure), and distributed (spread across multiple servers connected by a common core).
 - **MapReduce** is a programming model and processing technique for big data. MapReduce enables processing the large amount of data spread across the cluster in the HDFS by performing the same task for each file system.
 - **Yet Another Resource Negotiator (YARN)** manages and allocates resources across the clusters and assigns tasks. 
