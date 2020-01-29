@@ -116,6 +116,10 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
 - If you choose to use **PySpark**, create a new notebook and perform your analysis there.
 - Consider steps to take to reduce noisy data.
 
-## Links
-[Google Colab notebook](https://drive.google.com/drive/folders/1A1gtiwU0Suo4EcvG3gPgbe0YRxeHyIBb) for the ETL process on the review datasets
+## Link
+**[Google Colab notebook](https://drive.google.com/drive/folders/1A1gtiwU0Suo4EcvG3gPgbe0YRxeHyIBb) includes:** 
+- **digital_music.ipynb** ETL process on the digital music review dataset  
+- **music.ipynb** ETL process on the music review dataset
+- **digital_music_analysis.ipynb** *written analysis included in text cells*  
+- **music_analysis.ipynb** *written analysis included in text cells*
 
