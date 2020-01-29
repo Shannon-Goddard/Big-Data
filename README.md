@@ -36,7 +36,7 @@ This week we covered what constitutes big data and how it’s handled. We starte
 
 ## Summary  
 ### Define big data and describe the challenges associated with it.  
-Data is considered big data when it exceeds the capacity of operational databases. There are four characteristics of big data:
+**Data is considered big data when it exceeds the capacity of operational databases. There are four characteristics of big data:**
 - **Volume** refers to the size of data (e.g., terabytes of product information). For instance, a year’s worth of stock market transactions is a large amount of data.
 - **Velocity** pertains to how quickly data comes in (customers across the world purchasing every second). As an example, McDonald’s restaurants are worldwide with customers buying food at a constant rate, so the data comes in fast.
 - **Variety** relates to different forms of data (e.g., user account information, product details, etc.). Consider the breadth of Netflix user information, videos, photos for thumbnails, and so forth.
@@ -46,7 +46,7 @@ Data is considered big data when it exceeds the capacity of operational database
 Working with datasets of this size creates unique challenges. How will we store all of this data? How can we access it quickly? How do we back up this type of data?  
 
 ### Define Hadoop and name the main elements of its ecosystem.  
-Apache Hadoop (Hadoop) is one of the most popular open source frameworks, with numerous technologies for big data. Google developed Hadoop to process large amounts of data by splitting data across a distributed file system.  
+**Apache Hadoop (Hadoop)** is one of the most popular open source frameworks, with numerous technologies for big data. Google developed Hadoop to process large amounts of data by splitting data across a distributed file system.  
 
 **The three main components of Hadoop:** 
 - **Hadoop Distributed File System (HDFS)** is a file system used to store data across server clusters (groups of computers). It is scalable (which means it handles influxes of data), fault-tolerant (handles hardware failure), and distributed (spread across multiple servers connected by a common core).
