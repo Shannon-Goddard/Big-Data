@@ -86,7 +86,8 @@ Spark uses in-memory computation instead of a disk-based solution, which means i
 ### Explain how to use AWS Simple Storage Service (S3) and relational databases for basic cloud storage.  
 **S3** is Amazon’s cloud file storage service that uses key-value pairs. Files are stored on multiple servers and have a high rate of availability of more than 99.9%. To store files, S3 uses buckets, which are similar to folders or directories on your computer. Buckets can contain additional folders and files. Each bucket must have a unique name across all of AWS.  
 - One of S3’s perks is its fine-grained control over files. Each file or bucket can have different read and write permissions, which helps regulate what can be done with each file.  
-- S3 is also very scalable—you are not limited to the memory of one computer. As data flows in, more and more can be stored, as opposed to a local computer that is limited by available memory. Additionally, it offers availability—several team members can access massive amounts of data from one central location.  
+- S3 is also very scalable—you are not limited to the memory of one computer. As data flows in, more and more can be stored, as opposed to a local computer that is limited by available memory.  
+- Additionally, it offers availability—several team members can access massive amounts of data from one central location.  
 
 ## Challenge Overview  
 ### Complete an analysis of an Amazon customer review.  
