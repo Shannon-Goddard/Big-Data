@@ -113,7 +113,7 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
 4.) Use either PySpark or SQL to analyze the data and determine if the Vine reviews are biased. 
 - If you choose to use **SQL**, use the vine_table from the result of the previous step. Perform your analysis with SQL queries on RDS.
 - If you choose to use **PySpark**, create a new notebook and perform your analysis there.
-- consider steps to take to reduce noisy data.
+- Consider steps to take to reduce noisy data.
 
 ## Links
 
