@@ -9,7 +9,7 @@
 [Challenge Overview](#challenge-overview)  
 [Challenge Objectives](#challenge-objectives)  
 [Challenge Summary](#challenge-summary)  
-[Colab Link](#colab_link)
+[Colab Link](#colab-link)
 
 ## Project Overview  
 This week we covered what constitutes big data and how it’s handled. We started by reviewing Hadoop and its ecosystem.  
