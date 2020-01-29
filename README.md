@@ -117,5 +117,5 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
 - Consider steps to take to reduce noisy data.
 
 ## Links
-
+[Google Colab notebook](https://drive.google.com/drive/folders/1A1gtiwU0Suo4EcvG3gPgbe0YRxeHyIBb) for the ETL process on the review datasets
 
