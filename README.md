@@ -60,7 +60,7 @@ Hadoop is quite difficult to set up. You need to set up all three main component
 Hadoop is an ecosystem for handling big data. Expect to spend significant time configuring multiple servers or computers, as well as researching which technology can best deliver your big data solution. With the growing interest in big data and the ease of access to cloud technology, Hadoop is no longer required. New technologies allow more flexibility in data processing. 
 
 ### Explain how MapReduce processes data.  
-MapReduce is used as a means for distributing and processing data on our cluster. MapReduce is built on the process of **mapping**—the process of assigning the same job to each of the computers—and **reducing**, which is when you come back together to combine the results.  
+**MapReduce** is used as a means for distributing and processing data on our cluster. MapReduce is built on the process of **mapping**—the process of assigning the same job to each of the computers—and **reducing**, which is when you come back together to combine the results.  
 
 - **Mapping** is taking a small piece of the input and then converting the data into key-value pairs, with key identifiers and associated values.  
 - **Reducing** is when you aggregate the results.
