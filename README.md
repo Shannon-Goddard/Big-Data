@@ -120,6 +120,6 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
 **[Google Colab notebook](https://drive.google.com/drive/folders/1A1gtiwU0Suo4EcvG3gPgbe0YRxeHyIBb) includes:** 
 - **digital_music.ipynb** ETL process on the digital music review dataset  
 - **music.ipynb** ETL process on the music review dataset
-- **digital_music_analysis.ipynb** *written analysis included in text cells*  
-- **music_analysis.ipynb** *written analysis included in text cells*
+- **digital_music_analysis.ipynb** written analysis on the digital music review dataset *included in text cells*  
+- **music_analysis.ipynb** written analysis on the music review dataset *included in text cells*
 
