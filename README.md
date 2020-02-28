@@ -117,7 +117,7 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
 - Consider steps to take to reduce noisy data.
 
 ## Colab Link
-**[Google Colab notebook](https://drive.google.com/drive/folders/1A1gtiwU0Suo4EcvG3gPgbe0YRxeHyIBb) includes:** 
+**[Google Colab notebook](https://drive.google.com/open?id=1A1gtiwU0Suo4EcvG3gPgbe0YRxeHyIBb) includes:** 
 - **digital_music.ipynb** ETL process on the digital music review dataset  
 - **music.ipynb** ETL process on the music review dataset
 - **digital_music_analysis.ipynb** written analysis on the digital music review dataset *included in text cells*  
